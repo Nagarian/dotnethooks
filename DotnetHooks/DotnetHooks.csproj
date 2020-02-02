@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    
+    <IsPackable>true</IsPackable>
+    <Version>1.0.0</Version>
+    <Authors>Nagarian</Authors>
+    <Description>Use git custom hooks into your project</Description>
+    <PackageTags>git;git hooks;</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Nagarian/dotnethooks/</RepositoryUrl>
+    <DevelopmentDependency>true</DevelopmentDependency>
+
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="build/*.*" Pack="true" PackagePath="build" />
+  </ItemGroup>
+
+</Project>
